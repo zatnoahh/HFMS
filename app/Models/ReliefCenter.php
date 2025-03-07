@@ -9,7 +9,7 @@ class ReliefCenter extends Model
 {
     use hasFactory;
 
-    protected $primaryKey = 'center_id';
+    protected $primaryKey = 'id';
 
     protected $fillable = [
         'name',
